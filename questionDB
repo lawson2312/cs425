@@ -1,0 +1,13 @@
+CREATE TABLE `questions` (
+	`question` LONGTEXT NOT NULL,
+	`questionInd` INT(11) NOT NULL AUTO_INCREMENT,
+	`rightAns` LONGTEXT NOT NULL,
+	`wrongAns` LONGTEXT NOT NULL,
+	`wrongAns2` LONGTEXT NOT NULL,
+	`wrongAns3` LONGTEXT NOT NULL,
+	INDEX `questionInd` (`questionInd`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=6
+;
